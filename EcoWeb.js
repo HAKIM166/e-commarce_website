@@ -700,7 +700,7 @@ function ecoInitProductCards() {
     // Cart icon on card (we treat shuffle icon as 'add to cart' if no cart icon)
     let cartIcon =
       card.querySelector(".hoverable .ri-shopping-cart-line") ||
-      card.querySelector(".hoverable .ri-shuffle-line");
+      card.querySelector(".hoverable .ri-shopping-cart-2-line");
     if (cartIcon) {
       const cartBtn = cartIcon.closest("a");
       if (cartBtn) {
